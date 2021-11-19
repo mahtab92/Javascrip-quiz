@@ -27,7 +27,7 @@ h1{
     align-items: center; 
 } 
 
-.btn{
+.firstpage{
     font-size: 60px;
     padding: 50px;
     width: 30rem;
@@ -39,6 +39,5 @@ h1{
     background-color: lightpink;
     cursor: pointer;
 }
-.btn:hover{
-    background-color: rgb(158, 182, 226);
-}
+.firstpage:hover{
+    background-color: rgb(158, 182, 226);}

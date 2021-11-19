@@ -13,39 +13,54 @@
       <div id="game" class="justfy-conter flex-column"></div>
      <div id="hud">
          <div class="hud-item">
-             <p id="progressText" class="hud-prefix">
-                 question
+             <p id="title-question" class="hud-prefix">
+                  Question
              </p>
              <div id="progressBar">
                  <div id="progressBarFull"></div>
              </div>
          </div>
          <div class="hud-item">
-             <p class="hud-prefix">
+             <p class="score">
                  Score
              </p>
              <h1 class="hud-main-text" id="score">
                 0
              </h1>
          </div>
+         <br>
+         <form>
+
+            <div class ="playerSubmission">
+              <label class="textInput playerSubmission">Name</label>
+              <br>
+              <input type="text" id="textInput" class="form-group playerSubmission">
+              <br>
+              <button type="button" id="signIn" class="btn playerSubmission" >Submit</button>
+            </div>
+          
+          </form>
      </div>
         <div id="question"> what is the answer to this question</div>
-        <div class="choice-contianer">
-            <p class="choice-prefix choice-contianer">A</p>
-            <p class="choice-text choice-contianer" data-number='1'>Choice 1</p>
+        <br>
+        <br>
+        <div class="choice-contianer" id="btn">
+            <p><button type="button" class="choice-prefix choice-contianer">A</p>
         </div>
         <div class="choice-contianer">
-            <p class="choice-prefix choice-contianer">B</p>
-            <p class="choice-text choice-contianer" data-number='2'>Choice 2</p>
+            <p><button type="button" class="choice-prefix choice-contianer">B</p>
+            
         </div>
         <div class="choice-contianer">
-            <p class="choice-prefix choice-contianer">C</p>
-            <p class="choice-text choice-contianer" data-number='3'>Choice 3</p>
+            <p><button type="button" class="choice-prefix choice-contianer">C</p>
+           
       </div>
       <div class="choice-contianer">
-        <p class="choice-prefix choice-contianer">D</p>
-        <p class="choice-text choice-contianer" data-number='4'>Choice 4</p>
+        <p><button type="button" class="choice-prefix choice-contianer">D</p>
+        
+      
     </div>
     <script src="Assests/game.js"></script>
+    <script src="Assests/Questions.js"></script>
   </body>
 </html>

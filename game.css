@@ -1,24 +1,80 @@
-body{
+*{
     color: black;
-    
+    font-size: 24px;
+    margin: 0;
+    border: 0;
 }
 
 .choice-contianer{
-  display: flex;
- margin-bottom: 0.8rem;
- width: 20%;
- border-radius: 4px;
- background: rgb(143, 210, 219);
- cursor: pointer;
- min-width: 2rem;
-} 
+  display: inline-block;
 
-.choice-text{
-    
-    
+margin: 4px;
+  justify-content: center;
+  align-items: center;
+    background-color: #adce82; /* Green */
+font-size: 2.4rem;
+padding: 2rem 1 ;
+width: 30rem;
+text-align: center;
+margin-bottom: 1 rem;
+text-decoration: underline;
+border-radius: 4px;
+    cursor: pointer;
+}   
+
+#question{
+position: relative;
+font-weight: bold;
+font-size: 1.8rem;
+top: 20px;
+
+
 }
-.choice-prefix{
+#title-question{
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+.score{
+position: absolute;
+top: 10px;
+left: 70px;
+font-size: 2rem;
+font-weight: bold;
+}
+
+.hud-main-text{
+   position: relative;
+   top: 60px;
+   left: -570px;
+}
+
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.playerSubmission{
+position: relative;
+left: 99px;
+
+
+}
+
+#textInput{
   
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 15px 50px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: rgb(189, 35, 35);
 }
 .correct{
     background-color: greenyellow;
@@ -29,13 +85,18 @@ body{
 }
 .hud-prefix{
     
-     font-size: 2rem;
+     font-size: 4rem;
 }
 .hud-main-text{
-    
+    font-size: 4rem;
 }
+
+
 @media screen  and (max-width: 768px){
     .choice-contianer{
+        min-width: 40rem;
+    }
+    .hud-main-text{
         min-width: 40rem;
     }
 }
