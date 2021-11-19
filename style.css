@@ -1,0 +1,44 @@
+/* The font i imported from the goole.com */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+    font-size: 20px;
+    font-family:'Nova Square';
+    text-align: center;
+}
+h1{
+    font-size: 5.4rem;
+    color: wheat;
+    margin-bottom: 4rem;
+}
+.cotaner{
+  display: flex;
+  height: 200px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.flex-column{
+     display: flex;
+    flex-direction: column;
+    align-items: center; 
+} 
+
+.btn{
+    font-size: 60px;
+    padding: 50px;
+    width: 30rem;
+    font-family: fantasy;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: brown;
+    background-color: lightpink;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(158, 182, 226);
+}

@@ -1,0 +1,41 @@
+body{
+    color: black;
+    
+}
+
+.choice-contianer{
+  display: flex;
+ margin-bottom: 0.8rem;
+ width: 20%;
+ border-radius: 4px;
+ background: rgb(143, 210, 219);
+ cursor: pointer;
+ min-width: 2rem;
+} 
+
+.choice-text{
+    
+    
+}
+.choice-prefix{
+  
+}
+.correct{
+    background-color: greenyellow;
+}
+#hud{
+    display: flex;
+    justify-content: center;
+}
+.hud-prefix{
+    
+     font-size: 2rem;
+}
+.hud-main-text{
+    
+}
+@media screen  and (max-width: 768px){
+    .choice-contianer{
+        min-width: 40rem;
+    }
+}
